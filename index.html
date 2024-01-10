@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!--Dependencies-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!--Start-->
+
+<div class="wrapper">
+	
+	<div class="top">
+		<h1>Logan Ipsum Generator</h1>
+		<form class="collect-vars">
+			<p>I need</p>
+			<input id="num" class="number checked" type="number" value="1" min="1" max="999" maxlength="3" name="num">
+			<p>of your</p>
+			<select id="typ" class="thing checked" name="font">
+				<option value="w">words</option>
+				<option value="s">sentences</option>
+				<option value="p">paragraphs</option>
+			</select>
+			<p>Logan Broger.</p>
+			<div id="generate">Generate</div>
+		</form>
+	</div>
+	
+	
+	<div class="bottom">
+		<div id="display" class="display"></div>
+	</div>
+		
+</div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
